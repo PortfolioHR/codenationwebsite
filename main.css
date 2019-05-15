@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Dosis|Satisfy');
+
+body {
+    background-image: url("images/wallpaper.png");
+    background-repeat: repeat;
+  }
+
+.holder {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    padding: 25px;
+    width:50%;
+    margin: 0 auto;
+
+}
+.calign{
+    text-align: center;
+    width:50%;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: rgb(168, 164, 108);
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+.button1 {
+    border-radius: 12px;
+        background-color: rgba(0, 0, 0, 0.5); 
+        color: rgb(255, 255, 255); 
+        border: 2px solid rgb(0, 0, 0);
+      
+}
+
+.button1:hover {
+    background-color: rgba(180, 157, 24, 0.685);
+    color: white;
+  }
+
+  
+
+.dosis{
+    font-family: 'Dosis', sans-serif;
+}
+
+.badscript{
+    font-family: 'Bad Script', cursive;
+}
+
+.satisfy{
+    font-family: 'Satisfy', cursive;
+}
