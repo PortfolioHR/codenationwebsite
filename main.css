@@ -17,11 +17,18 @@ body {
     margin: 0 auto;
 
 }
-.calign{
-    text-align: center;
-    width:50%;
-    margin: 0 auto;
+.static{
+  position: fixed;
+  left:22.5%;
+  border-radius: 12px;
 }
+
+.calign{
+  text-align: center;
+  width:55%;
+  margin: 0 auto;
+}
+
 h1{
     color: white;
     font-family: 'Dosis', sans-serif;
@@ -49,17 +56,16 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: rgb(255, 255, 255);
+    color:black;
   }
   
   .active {
-    background-color: rgb(168, 164, 108);
+    background-color: rgb(180, 157, 24);
+    color: black;
   }
 
   .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -84,7 +90,27 @@ ul {
     color: white;
   }
 
-  
+
+.outcome{
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+}
+
+
+.tableb{
+  border="1";
+  border-style: solid;
+  border-color: white;
+  text-align: left;
+  border-width: 1px;
+}
+
+.tdb{
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
 
 .dosis{
     font-family: 'Dosis', sans-serif;
