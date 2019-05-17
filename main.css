@@ -5,12 +5,12 @@ body {
     background-repeat: repeat;
   }
 
-  a {
+  a:link {
     color: skyblue;
   }
 
-a:visited {
-    color: white;
+  a:visited {
+    color: yellowgreen;
   }
 
 .holder {
@@ -56,6 +56,14 @@ ul {
   }
   
   li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:visited {
     display: block;
     color: white;
     text-align: center;
