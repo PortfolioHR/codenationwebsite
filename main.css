@@ -5,6 +5,14 @@ body {
     background-repeat: repeat;
   }
 
+  a {
+    color: skyblue;
+  }
+
+a:visited {
+    color: white;
+  }
+
 .holder {
     background-color: rgba(0, 0, 0, 0.5);
     border-style: solid;
